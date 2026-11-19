@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram id="8-xoyF9QVVKQ5wu1cVF4" name="Page-1">
+        <mxGraphModel dx="2780" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="y23fNk6nPccrocxa7UMk-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ServicoAdicional&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# item : ItemFatura {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# ServicoAdicional(item : ItemFatura)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getNomeServico() : String {abstract}&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getCustoServico() : double {abstract}&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getDescricao() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getValorVenda() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getTotal() : double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="160" width="290" x="-25" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SeguroTransporte&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SeguroTransporte(item : ItemFatura)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getNomeServico() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getCustoServico() : double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="80" width="240" x="-315" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EmbalagemEspecial&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ EmbalagemEspecial(item : ItemFatura)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getNomeServico() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getCustoServico() : double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="80" width="240" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CertificadoAutenticidade&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CertificadoAutenticidade(item : ItemFatura)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getNomeServico() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getCustoServico() : double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="80" width="280" x="315" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ItemFatura&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescricao() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getValorVenda() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTotal() : double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="90" width="200" x="700" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Fatura&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ imprimir(item: ItemFatura): void&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="55" width="200" x="1140" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-13" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;VendaLote&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nomeLote : String {readOnly}&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- valorVenda : double {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ VendaLote(nomeLote : String, valorVenda : double)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getDescricao() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getValorVenda() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getTotal() : double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="160" width="320" x="1000" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-15" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-13" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-8" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1160" y="195"/>
+                        </Array>
+                        <mxPoint x="810" y="270" as="sourcePoint"/>
+                        <mxPoint x="970" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-16" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EntregaExpressa&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ EntregaExpressa(item : ItemFatura)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getNomeServico() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» # getCustoServico() : double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="90" width="240" x="680" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-17" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-8" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="195"/>
+                        </Array>
+                        <mxPoint x="270" y="380" as="sourcePoint"/>
+                        <mxPoint x="430" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-18" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-2" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-1" value="Extends">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-195" y="400"/>
+                        </Array>
+                        <mxPoint x="140" y="610" as="sourcePoint"/>
+                        <mxPoint x="300" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-19" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-3" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-1" value="Extends">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <mxPoint x="140" y="610" as="sourcePoint"/>
+                        <mxPoint x="300" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-21" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-4" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-1" value="Extends">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="455" y="400"/>
+                        </Array>
+                        <mxPoint x="140" y="610" as="sourcePoint"/>
+                        <mxPoint x="300" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-22" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-16" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-1" value="Extends">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="800" y="400"/>
+                        </Array>
+                        <mxPoint x="440" y="510" as="sourcePoint"/>
+                        <mxPoint x="600" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-23" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-16" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-8" value="Use">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <mxPoint x="680" y="390" as="sourcePoint"/>
+                        <mxPoint x="840" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="y23fNk6nPccrocxa7UMk-24" edge="1" parent="1" source="y23fNk6nPccrocxa7UMk-11" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="y23fNk6nPccrocxa7UMk-8" value="Use">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="800" y="47.5"/>
+                        </Array>
+                        <mxPoint x="850" y="180" as="sourcePoint"/>
+                        <mxPoint x="1010" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
