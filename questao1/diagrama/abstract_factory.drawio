@@ -1,0 +1,144 @@
+<mxfile host="65bd71144e">
+    <diagram id="Aqfya4BDltQ1VnM-d20w" name="Page-1">
+        <mxGraphModel dx="3979" dy="2381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Armazenamento&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getId(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCustoPorGb(): double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="80" width="200" x="-930" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Fila&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getId(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCustoMensal(): double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="80" width="200" x="-80" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MaquinaVirtual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getId(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCustoPorHora(): double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="80" width="200" x="760" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;NuvemFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ criarMaquinaVirtual(): MaquinaVirtual&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ criarArmazenamento(): Armazenamento&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ criarFila(): Fila&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCustoHoraMaquina(): double&lt;br&gt;+ getCustoGbArmazenamento(): double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCustoFila(): double&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="160" width="280" x="-120" y="-250" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AwsArmazenamento&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CUSTO_POR_GB : double = 0.023 {readOnly}&lt;br&gt;- id : String {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AwsArmazenamento(numero : int)&lt;br&gt;«override» + getId() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoPorGb() : double&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="120" width="280" x="-1210" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AwsFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- seqVm : AtomicInteger {readOnly}&lt;br&gt;- seqArmazenamento : AtomicInteger {readOnly}&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- seqFila : AtomicInteger {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getNome() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + criarMaquinaVirtual() : MaquinaVirtual&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + criarArmazenamento() : Armazenamento&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + criarFila() : Fila&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoHoraMaquina() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoGbArmazenamento() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoFila() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="240" width="320" x="-585" y="-10" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AwsFila&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CUSTO_MENSAL : double = 0.40 {readOnly}&lt;br&gt;- id : String {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AwsFila(numero : int)&lt;br&gt;«override» + getId() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoMensal() : double&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="120" width="280" x="-360" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AwsMaquinaVirtual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CUSTO_POR_HORA : double = 0.10 {readOnly}&lt;br&gt;- id : String {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AwsMaquinaVirtual(numero : int)&lt;br&gt;«override» + getId() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoPorHora() : double&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="120" width="280" x="480" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AzureArmazenamento&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CUSTO_POR_GB : double = 0.02 {readOnly}&lt;br&gt;- id : String {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AzureArmazenamento(numero : int)&lt;br&gt;«override» + getId() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoPorGb() : double&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="120" width="280" x="-730" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AzureFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- seqVm : AtomicInteger {readOnly}&lt;br&gt;- seqArmazenamento : AtomicInteger {readOnly}&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- seqFila : AtomicInteger {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getNome() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + criarMaquinaVirtual() : MaquinaVirtual&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + criarArmazenamento() : Armazenamento&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + criarFila() : Fila&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoHoraMaquina() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoGbArmazenamento() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoFila() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="240" width="320" x="290" y="-10" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AzureFila&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CUSTO_MENSAL : double = 0.50 {readOnly}&lt;br&gt;- id : String {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AzureFila(numero : int)&lt;br&gt;«override» + getId() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoMensal() : double&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="120" width="280" x="120" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-12" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AzureMaquinaVirtual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CUSTO_POR_HORA : double = 0.12 {readOnly}&lt;br&gt;- id : String {readOnly}&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AwsMaquinaVirtual(numero : int)&lt;br&gt;«override» + getId() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;«override» + getCustoPorHora() : double&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="120" width="280" x="960" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-13" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-5" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-1" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-1070" y="320"/>
+                        </Array>
+                        <mxPoint x="-840" y="360" as="sourcePoint"/>
+                        <mxPoint x="-680" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-14" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-9" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-1" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-590" y="320"/>
+                        </Array>
+                        <mxPoint x="-840" y="360" as="sourcePoint"/>
+                        <mxPoint x="-680" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-15" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-7" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-2" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-220" y="320"/>
+                        </Array>
+                        <mxPoint x="-130" y="320" as="sourcePoint"/>
+                        <mxPoint x="30" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-16" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-11" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-2" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="320"/>
+                        </Array>
+                        <mxPoint x="90" y="280" as="sourcePoint"/>
+                        <mxPoint x="250" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-17" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-3" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="620" y="320"/>
+                        </Array>
+                        <mxPoint x="700" y="340" as="sourcePoint"/>
+                        <mxPoint x="860" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-18" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-12" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-3" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1100" y="320"/>
+                        </Array>
+                        <mxPoint x="890" y="340" as="sourcePoint"/>
+                        <mxPoint x="1050" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-19" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-6" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-4" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-425" y="-170"/>
+                        </Array>
+                        <mxPoint x="-230" y="-50" as="sourcePoint"/>
+                        <mxPoint x="-70" y="-50" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-21" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-10" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-4" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="450" y="-170"/>
+                        </Array>
+                        <mxPoint x="140" y="-30" as="sourcePoint"/>
+                        <mxPoint x="300" y="-30" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-22" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-1" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-4" value="Use">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-830" y="-320"/>
+                            <mxPoint x="20" y="-320"/>
+                        </Array>
+                        <mxPoint x="-140" y="90" as="sourcePoint"/>
+                        <mxPoint x="20" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-23" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-2" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-4" value="Use">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <mxPoint x="-140" y="90" as="sourcePoint"/>
+                        <mxPoint x="20" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="txKyE0JChLxvXKWAIrwO-24" edge="1" parent="1" source="txKyE0JChLxvXKWAIrwO-3" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="txKyE0JChLxvXKWAIrwO-4" value="Use">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="860" y="-320"/>
+                            <mxPoint x="20" y="-320"/>
+                        </Array>
+                        <mxPoint x="60" y="60" as="sourcePoint"/>
+                        <mxPoint x="220" y="60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
